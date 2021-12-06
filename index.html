@@ -47,16 +47,16 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Top Ratings</a>
+                    <a class="nav-link" href="#top-ratings">Top Ratings</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Seminars</a>
+                    <a class="nav-link" href="#seminar">Seminars</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">NGO</a>
+                    <a class="nav-link" href="#ngo">NGO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="cremation/">Cremation</a>
+                    <a class="nav-link" href="#cremation">Cremation</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -89,7 +89,7 @@
     <main>
         <div class="container-fluid p-3" style="height: auto; background-color:#1cc88a">
           
-          <div class="row m-1 p-3" style="justify-content: center; background-color: rgb(255, 255, 255); text-align: center;">
+          <div id="search" class="row m-1 p-3" style="justify-content: center; background-color: rgb(255, 255, 255); text-align: center;">
             <h2 class="p-3"><b><U>Search</U></b></h2>
             <div class="col-sm-4">
               <div class="container-fluid">
@@ -263,7 +263,7 @@
           </div>
 
           <hr>
-          <div class="row m-2" style="justify-content: center; background-color: blanchedalmond; text-align: center;">
+          <div id="top-ratings" class="row m-2" style="justify-content: center; background-color: blanchedalmond; text-align: center;">
             <h2 class="p-3"><b><U>Top Ratings</U></b></h2>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
@@ -407,7 +407,7 @@
           </div>
 
           <hr>
-          <div class="row m-2" style="justify-content: center; background-color: blanchedalmond; text-align: center;">
+          <div id="seminar" class="row m-2" style="justify-content: center; background-color: blanchedalmond; text-align: center;">
             <div class="container col-xxl-8 ">
               <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
@@ -417,8 +417,8 @@
                   <h1 class="display-5 fw-bold lh-1 mb-3"> Health Seminars</h1>
                   <p class="lead">Community health seminars present the latest and best information on health topics that matter to you and your family. They are for anyone interested in staying healthy, preventing illness, or living and thriving with conditions that affect them or a family member. You'll get reliable, easy-to-understand information, as well as practical advice based on the latest advances in medicine. Our presenters are experts in their fields, many of them involved in scientific research in addition to compassionate patient care</p>
                   <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    <a class="btn btn-primary btn-lg px-4 me-md-2" href="seminar/index.html" role="button">Upcoming Seminars</a>
+                    <a class="btn btn-outline-secondary btn-lg px-4" href="#subscribe" role="button">Subscribe to get notified</a>
                   </div>
                 </div>
               </div>
@@ -426,7 +426,7 @@
           </div>
 
           <hr>
-          <div class="row m-2" style="justify-content: center; background-color: blanchedalmond; text-align: center;">
+          <div id="ngo" class="row m-2" style="justify-content: center; background-color: blanchedalmond; text-align: center;">
             <h2 class="p-3"><b><U>NGO</U></b></h2>
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <ol class="carousel-indicators">
@@ -540,7 +540,7 @@
           </div>
 
           <hr>
-          <div class="row m-2" style="justify-content: center; background-color: blanchedalmond; text-align: center;">
+          <div id="cremation" class="row m-2" style="justify-content: center; background-color: blanchedalmond; text-align: center;">
             <div class="container col-xxl-8 ">
               <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
@@ -550,19 +550,17 @@
                   <h1 class="display-5 fw-bold lh-1 mb-3">Cremation</h1>
                   <p class="lead">We take care of every aspect of cremation process so you can focus on the right way to honor your loved one's life.We provide a simple direct cremation package that you can arrange remotely with the help of our care team. Our expert team will take care of every aspect of cremation process making arrangements easy ,conveninent and completely online.</p>
                   <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Apply for Cremation</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-       
-        
-        
+           
     </main>
     <!-- Main Body Over-->
 
-    
     <hr>
     <footer>
         <div class="container" >
@@ -596,7 +594,7 @@
                   </ul>
                 </div>
           
-                <div class="col-4 offset-1">
+                <div id="subscribe" class="col-4 offset-1">
                   <form>
                     <h5>Subscribe Us</h5>
                     <p>Know how to heal or help.</p>
