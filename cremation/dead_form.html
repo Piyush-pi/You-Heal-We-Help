@@ -12,6 +12,34 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
+
+
+<style>
+  .button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a4444;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  </style>
+
+
 <body style="background-color: #adb5bd">
   <div class="container" style="width: 30%; height: 30%; border: 1px solid black; margin-top: 120px;">
     <form>
@@ -72,12 +100,17 @@
         </div>
       </div>
       <div style="padding: 10px;">
-        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="material.html" role="button" style="width: 100%;">
-          Submit
-        </a>
+        <button class="button">Hinduism</button>
+        <button class="button">Islamic</button>
+        <button class="button">christianity</button>
+        <button class="button">Sikhism</button>
+      
       </div>
     </form>
   </div>
+
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -92,3 +125,9 @@
 </body>
 
 </html>
+
+
+
+
+
+
